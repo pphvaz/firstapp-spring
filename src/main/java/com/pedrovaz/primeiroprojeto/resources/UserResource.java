@@ -45,7 +45,7 @@ public class UserResource {
 		return ResponseEntity.created(uri).body(obj);
 	}
 	
-	@DeleteMapping(value ="/{id}")
+	@DeleteMapping(value = "/{id}")
 	public ResponseEntity<Void> delete (@PathVariable Long id) {
 		service.delete(id);
 		return ResponseEntity.noContent().build();
@@ -56,5 +56,4 @@ public class UserResource {
 		obj = service.update(id, obj);
 		return ResponseEntity.ok().body(obj);
 	}
-	
 }
