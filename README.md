@@ -1,4 +1,4 @@
-<h2>First Spring RestFUL API</h2>
+<h2>Spring RestFUL API</h2>
 
 ##### This was a project built during theava COMPLETO Programação Orientada a Objetos + Projetos from Udemy
 
